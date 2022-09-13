@@ -1,0 +1,14 @@
+{
+  "name": "first_node_js",
+  "version": "1.0.0",
+  "description": "it is first node js proj",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
