@@ -1,0 +1,19 @@
+nodeJS
+
+node jsFile.js: to run js on system
+
+npm init : used to initialise project as node project
+
+npm install -g nodemon: realtime loads js files
+
+nodemon jsfile.js
+
+sometimes we want pakgs to used only in dev env so those will be in dev dependecies like nodemon
+
+npm i --save-dev nodemon
+
+module wrapper function
+// function(exports, require, module, __filename, __dirname) {
+
+
+if we want to use es6 module then in pakg.json use type:module
