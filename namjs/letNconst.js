@@ -1,6 +1,6 @@
 //let and const are hoisted decleration but they behave differenly than var
 // console.log(a)
-//temporal dead zone time bw 2 and 4 uninitialized
+//temporal dead zone time bw 2 and 5 line uninitialized
 console.log(b)
 let a=1;
 console.log(a)
@@ -18,7 +18,8 @@ console.log(c)
 
 // type error then typr of js is violated
 
-//let and const are bloked scope {block} block or compound statement means combining multiple lies of code into a group use of it is when js expect 1but we give {block}
+//let and const are bloked scope {block} block or compound statement means combining multiple lies of code into a group 
+// use of it is when js expect 1but we give {block}
 // let and const are not shadowed
 var d=22;
 let e=33;
